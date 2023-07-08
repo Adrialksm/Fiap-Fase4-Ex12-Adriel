@@ -1,0 +1,43 @@
+body {
+  background-color: #482947;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 1.2rem;
+  background-color: #8a9742;
+  border-color: #8a9742;
+}
+.btn:hover {
+  font-size: 1.2rem;
+  background-color: #8a9742;
+  border-color: #8a9742;
+}
+.btn:focus {
+    border-color: white !important;
+}
+.btn:active {
+    border-color: white !important;
+}

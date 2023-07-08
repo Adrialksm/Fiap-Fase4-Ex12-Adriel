@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="moneytracker.css" />
+    <title>Exemplo Bootstrap</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <img src="IMG/logo.png" alt="Imagem" class="img-fluid mb-5 mt-5" />
+          <h1 class="mt-5">MoneyTracker</h1>
+          <p>
+            Tenha mais controle sobre suas finanças. Organizando tudo de forma
+            simples!
+          </p>
+
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Endereço de e-mail</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="E-mail"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >Seu e-mail nunca será compartilhado com ninguem</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Senha</label>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Senha"
+              />
+            </div>
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Lembrar-me</label
+              >
+            </div>
+            <br />
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+          <div class="container-fluid text-center py-4">
+            <h5>Entrar com</h5>
+            <div class="row">
+              <div class="col">
+                <a href="#" class="text-light mr-4">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="text-light mr-4">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="text-light mr-4">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="text-light">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid text-center py-4">
+            <div class="row text-center">
+              <div class="col">
+                <p>Ou cadastre <ins><a class="text-white li" href="#">aqui</a></ins></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
